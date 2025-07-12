@@ -1,0 +1,38 @@
+/* Responsive Utility CSS Classes */
+
+/* Breakpoints:
+   - xs: 0px (default)
+   - sm: 576px
+   - md: 768px
+   - lg: 992px
+   - xl: 1200px
+   - 
+*/
+
+/* =================================
+   DISPLAY UTILITIES
+   ================================= */
+
+/* Base Display */
+.d-none { display: none; }
+.d-flex { display: flex; }
+.d-block { display: block; }
+.d-inline { display: inline; }
+.d-inline-block { display: inline-block; }
+
+
+/* Justify Content */
+.jc-between { justify-content: space-between ; }
+
+/* Align Items */
+.ai-center { align-items: center; }
+
+/* Padding Y-axis (top & bottom) */
+.py-3 { padding-top: 1rem !important; padding-bottom: 1rem !important; }
+
+/* Grid Gap */
+.gap-5 { gap: 2rem !important; }
+
+@media (max-width: 768px) {
+  .d-md-none { display: none;}
+}
